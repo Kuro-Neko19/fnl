@@ -67,11 +67,7 @@ class Route
 		}
 		else
 		{
-			/*
-			правильно было бы кинуть здесь исключение,
-			но для упрощения сразу сделаем редирект на страницу 404
-			*/
-			Route::ErrorPage404();
+			header("Location: https://final.local/404");
 		}
 		
 		// создаем контроллер
@@ -85,8 +81,7 @@ class Route
 		}
 		else
 		{
-			// здесь также разумнее было бы кинуть исключение
-			Route::ErrorPage404();
+			header("Location: https://final.local/404");
 		}
 	
 	}
