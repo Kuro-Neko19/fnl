@@ -1,4 +1,5 @@
 <?php
+
     session_start();
 
     require_once realpath('Functions/DB/DataBase.php');

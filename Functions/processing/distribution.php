@@ -2,7 +2,6 @@
     session_start();
 
     require_once realpath('Application/Core/request_protection.php');
-    
 	$request = new RequestProtection;
 
     if(isset($_POST['advertiser_auth'])){

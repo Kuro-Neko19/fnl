@@ -79,6 +79,7 @@
         //        $tbl_admin = $tbl_admin + 1;
         //    }
 
+            global $mysql;
             $sql = "SELECT * FROM admin_db";
             $result = mysqli_query($mysql, $sql);
             while($usrs = mysqli_fetch_assoc($result)){

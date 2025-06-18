@@ -1,10 +1,22 @@
 <?php
     session_start();
 
-	require_once realpath('Functions/processing/distribution.php');
 	require_once realpath('Application/Core/request_protection.php');
-
 	$request = new RequestProtection;
+
+	require realpath('vendor/autoload.php');
+
+spl_autoload_extensions(".php");
+spl_autoload_register();
+
+    $connect = new Processing\Distribution;
+    $connect->connectDistribution();
+
+	$connect1 = new DB\DataBase;
+    $connect1->connectDB();
+
+	//require_once realpath('Functions/processing/distribution.php');
+
 
 ?>
 

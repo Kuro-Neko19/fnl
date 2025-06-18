@@ -1,7 +1,13 @@
 <?php
     session_start();
 
-    require_once realpath('Functions/processing/distribution.php');
+    require realpath('vendor/autoload.php');
+
+spl_autoload_extensions(".php");
+spl_autoload_register();
+
+    $connect = new Processing\Distribution;
+    $connect->connectDistribution();
 
 ?>
 

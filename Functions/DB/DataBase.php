@@ -1,4 +1,7 @@
 <?php
+
+    session_start();
+
     $tbl_offr = 0;
     $tbl_admin = 0;
     $tbl_adv = 0;
@@ -6,6 +9,7 @@
     $tbl_log = 0;
 
     //Подключение к БД
+    global $mysql;
     $mysql = mysqli_connect('MySQL-8.2', 'root', '', 'Project_DB');
         if (mysqli_connect_errno()){
             echo 'Не удалось подключится к базе данных';
@@ -29,6 +33,7 @@
 
         $tbl_offr = $tbl_offr + 1;
     }
+    global $offerid;
 
     //Извлечение таблицы админов
     $sql = "SELECT * FROM admin_db";

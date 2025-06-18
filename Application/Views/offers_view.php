@@ -7,6 +7,7 @@
 
     require_once realpath('Functions/processing/offers.php');
     require_once realpath('Application/Core/request_protection.php');
+    
 
 	$request = new RequestProtection;
 

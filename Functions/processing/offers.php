@@ -2,7 +2,14 @@
     session_start();
 
     require_once realpath('Application/Core/request_protection.php');
-    require_once realpath('Functions/DB/DataBase.php');
+
+    require realpath('vendor/autoload.php');
+
+spl_autoload_extensions(".php");
+spl_autoload_register();
+
+    $connect = new DB\DataBase;
+    $connect->connectDB();
 
 	$request = new RequestProtection;
 

@@ -1,7 +1,15 @@
 <?php
     session_start();
 
-    require_once realpath('Functions/auth/admin_login.php');
+require realpath('vendor/autoload.php');
+
+spl_autoload_extensions(".php");
+spl_autoload_register();
+
+    $connect = new Auth\AdminLogin;
+    $connect->connectAdmin();
+
+    //require_once realpath('Functions/auth/admin_login.php');
 
 ?>
 <!-- -->
