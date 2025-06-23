@@ -7,7 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'React\\EventLoop\\' => array($vendorDir . '/react/event-loop/src'),
-    'Processing\\' => array($baseDir . '/src/Processing'),
-    'DB\\' => array($baseDir . '/src/DB'),
-    'Auth\\' => array($baseDir . '/src/Auth'),
+    'Project' => array('/'),
 );

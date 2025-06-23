@@ -14,7 +14,7 @@ spl_autoload_extensions(".php");
 spl_autoload_register();
 
     $connect = new Processing\Profile;
-    $connect->Profile();
+    $connect->connectProfile();
 
     global $mysql;
 

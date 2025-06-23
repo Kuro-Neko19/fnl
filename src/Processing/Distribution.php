@@ -2,7 +2,7 @@
     
     class Distribution {
         public function connectDistribution () {
-            require_once realpath('Functions/Processing/distribution.php');
+            require_once realpath('Functions/Processing/Distribution.php');
         }
     }  
 ?>
