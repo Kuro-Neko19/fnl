@@ -4,4 +4,3 @@ class MasterAuth {
         require_once realpath('Functions/Auth/MasterAuth.php');
     }
 }
-?>

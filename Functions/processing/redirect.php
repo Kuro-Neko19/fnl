@@ -49,4 +49,3 @@
     }
     else header("Location: https://final.local/404");
     
-?>

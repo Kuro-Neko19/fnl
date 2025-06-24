@@ -4,4 +4,3 @@ class AdminLogin {
         require_once realpath('Functions/Auth/AdminLogin.php');
     }
 }
-?>

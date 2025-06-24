@@ -4,4 +4,3 @@
             $this->view->generate('main_view.php', 'empty_view.php'); 
         } 
     }
-?>

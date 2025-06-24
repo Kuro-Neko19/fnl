@@ -96,4 +96,3 @@
 
         $tbl_log = $tbl_log + 1;
     }
-?>

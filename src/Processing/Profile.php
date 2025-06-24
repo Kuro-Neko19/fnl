@@ -9,4 +9,3 @@
             require_once realpath('Functions/processing/Admin.php');
         }
     }  
-?>

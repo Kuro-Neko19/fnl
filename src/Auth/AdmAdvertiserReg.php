@@ -4,4 +4,3 @@ class AdmAdvertiserReg {
         require_once realpath('Functions/Auth/AdmAdvertiserReg.php');
     }
 }
-?>

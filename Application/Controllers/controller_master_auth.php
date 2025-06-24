@@ -4,4 +4,3 @@
             $this->view->generate('master_auth_view.php', 'empty_view.php'); 
         } 
     }
-?>

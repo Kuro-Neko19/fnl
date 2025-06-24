@@ -22,4 +22,3 @@
         mysqli_query($mysql, "INSERT INTO offers_db (offer_name, offer_about, price, own, url) VALUES ('$offer_name', '$about', '$price', '$own', '$url')");
 
     }
-?>

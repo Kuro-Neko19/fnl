@@ -44,4 +44,3 @@
             
         header("Location: https://final.local/profile?id=" . $users_adm_id[$arr_key] . "&type=admin");
     }
-?>

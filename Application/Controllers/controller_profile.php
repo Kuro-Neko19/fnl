@@ -4,4 +4,3 @@
             $this->view->generate('profile_view.php', 'auth_panel_view.php'); 
         } 
     }
-?>

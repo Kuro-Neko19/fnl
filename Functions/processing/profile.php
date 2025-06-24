@@ -155,4 +155,3 @@
         unset($_SESSION['usr_name']);
         unset($_SESSION['request_token']);
     }
-?>

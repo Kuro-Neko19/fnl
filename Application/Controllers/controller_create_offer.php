@@ -4,4 +4,3 @@
             $this->view->generate('create_offer_view.php', 'auth_panel_view.php'); 
         } 
     }
-?>

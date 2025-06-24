@@ -4,4 +4,3 @@
             $this->view->generate('adm_admin_reg.php', 'auth_panel_view.php'); 
         } 
     }
-?>

@@ -5,4 +5,3 @@
             require_once realpath('Functions/Processing/CreateOffer.php');
         }
 }
-?>

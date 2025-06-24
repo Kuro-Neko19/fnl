@@ -32,4 +32,3 @@
         header("Location: https://final.local/profile?id=" . $_SESSION['id'] . "&type=" . $_SESSION['usr_type']);
     }
 
-?>

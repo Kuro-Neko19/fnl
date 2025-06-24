@@ -4,4 +4,3 @@ class AdmMasterReg {
         require_once realpath('Functions/Auth/AdmMasterReg.php');
     }
 }
-?>

@@ -25,4 +25,3 @@
             return '<meta name="' . $key . '" value="' . $this->previous_hash . '"/>';
         }
     }
-?>

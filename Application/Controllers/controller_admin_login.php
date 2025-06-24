@@ -4,4 +4,3 @@
             $this->view->generate('admin_login_view.php', 'empty_view.php'); 
         } 
     }
-?>

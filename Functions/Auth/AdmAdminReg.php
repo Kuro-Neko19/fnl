@@ -41,4 +41,3 @@
         
         header("Location: https://final.local/admin");
     }
-?>

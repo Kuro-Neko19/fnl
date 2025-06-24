@@ -107,4 +107,3 @@
             
         header("Location: https://final.local/profile?id=" . $users_m_id[$arr_key] . "&type=master");
     }
-?>
