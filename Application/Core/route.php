@@ -78,10 +78,10 @@ class Route
 
 		// подцепляем файл с классом контроллера
 		$controller_file = strtolower($controller_name).'.php';
-		$controller_path = "application/controllers/".$controller_file;
+		$controller_path = "Application/Controllers/".$controller_file;
 		if(file_exists($controller_path))
 		{
-			include "application/controllers/".$controller_file;
+			include "Application/Controllers/".$controller_file;
 		}
 		else
 		{
