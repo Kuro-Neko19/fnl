@@ -1,4 +1,22 @@
-<?php
+<?php namespace Core;
+
+    use Core\Controller;
+	use Core\View;
+	use Controllers\controller_adm_admin_reg;
+	use Controllers\controller_adm_advertiser_reg;
+	use Controllers\controller_adm_master_reg;
+	use Controllers\controller_admin_login;
+	use Controllers\controller_admin;
+	use Controllers\controller_advertiser_auth;
+	use Controllers\controller_create_offer;
+	use Controllers\controller_editing;
+	use Controllers\controller_error_404;
+	use Controllers\controller_main;
+	use Controllers\controller_master_auth;
+	use Controllers\controller_offer;
+	use Controllers\controller_offers;
+	use Controllers\controller_profile;
+	use Controllers\controller_redirect;
 
 /*
 Класс-маршрутизатор для определения запрашиваемой страницы.
@@ -11,7 +29,7 @@ class Route
 	static function start()
 	{
 		// контроллер и действие по умолчанию
-		$controller_name = 'Main';
+		$controller_name = 'main';
 		$action_name = 'index';
 		
 		$routes = explode('/', $_SERVER['REQUEST_URI']);
@@ -40,7 +58,7 @@ class Route
 
 		// добавляем префиксы
 		$model_name = 'Model_'.$controller_name;
-		$controller_name = 'Controller_'.$controller_name;
+		$controller_name = 'controller_'.$controller_name;
 		$action_name = 'action_'.$action_name;
 
 		/*
