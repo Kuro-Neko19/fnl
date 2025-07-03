@@ -2,21 +2,21 @@
 
     use Core\Controller;
 	use Core\View;
-	use Controllers\controller_adm_admin_reg;
-	use Controllers\controller_adm_advertiser_reg;
-	use Controllers\controller_adm_master_reg;
-	use Controllers\controller_admin_login;
-	use Controllers\controller_admin;
-	use Controllers\controller_advertiser_auth;
-	use Controllers\controller_create_offer;
-	use Controllers\controller_editing;
-	use Controllers\controller_error_404;
-	use Controllers\controller_main;
-	use Controllers\controller_master_auth;
-	use Controllers\controller_offer;
-	use Controllers\controller_offers;
-	use Controllers\controller_profile;
-	use Controllers\controller_redirect;
+	use Controllers\ControllerAdmAdminReg;
+	use Controllers\ControllerAdmAdvertiserReg;
+	use Controllers\ControllerAdmMasterReg;
+	use Controllers\ControllerAdminLogin;
+	use Controllers\ControllerAdmin;
+	use Controllers\ControllerAdvertiserAuth;
+	use Controllers\ControllerCreateOffer;
+	use Controllers\ControllerEditing;
+	use Controllers\ControllerError404;
+	use Controllers\ControllerMain;
+	use Controllers\ControllerMasterAuth;
+	use Controllers\ControllerOffer;
+	use Controllers\ControllerOffers;
+	use Controllers\ControllerProfile;
+	use Controllers\ControllerRedirect;
 
 /*
 Класс-маршрутизатор для определения запрашиваемой страницы.
