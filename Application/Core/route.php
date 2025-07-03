@@ -58,7 +58,7 @@ class Route
 
 		// добавляем префиксы
 		$model_name = 'Model_'.$controller_name;
-		$controller_name = 'controller_'.$controller_name;
+		$controller_name = 'Controller'.$controller_name;
 		$action_name = 'action_'.$action_name;
 
 		/*
